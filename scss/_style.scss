@@ -45,9 +45,15 @@ header{
         line-height: 1.5;
         margin-bottom: 40px;
       }
-      .icon-group{
-        display: flex;
-        justify-content: space-between;
+    }
+    .icon-group{
+      display: flex;
+      justify-content: space-between;
+      a{
+        transition: all 0.3s;
+        &:hover{
+          transform: translateY(-10px);
+        }
       }
     }
   }
