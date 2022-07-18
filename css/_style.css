@@ -59,13 +59,21 @@ header .banner .banner-content .text {
   line-height: 1.5;
   margin-bottom: 40px;
 }
-header .banner .banner-content .icon-group {
+header .banner .icon-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+header .banner .icon-group a {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+header .banner .icon-group a:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 section {
